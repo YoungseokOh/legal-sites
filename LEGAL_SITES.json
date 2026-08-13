@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "owner": "ZEROSEOK",
   "products": [
     {
@@ -7,6 +7,7 @@
       "name": "Grammarlyzer",
       "sourcePath": "products/grammarlyzer",
       "publicPath": "/grammarlyzer/",
+      "legacyRepository": "YoungseokOh/grammarlyzer-privacy",
       "legacyUrls": ["https://youngseokoh.github.io/grammarlyzer-privacy/"]
     },
     {
@@ -14,6 +15,7 @@
       "name": "Heisei",
       "sourcePath": "products/heisei",
       "publicPath": "/heisei/",
+      "legacyRepository": "YoungseokOh/heisei-legal",
       "legacyUrls": ["https://youngseokoh.github.io/heisei-legal/"]
     },
     {
@@ -21,6 +23,7 @@
       "name": "Malgil",
       "sourcePath": "products/malgil",
       "publicPath": "/malgil/",
+      "legacyRepository": "YoungseokOh/malgil-privacy",
       "legacyUrls": ["https://youngseokoh.github.io/malgil-privacy/"]
     },
     {
@@ -28,6 +31,7 @@
       "name": "ROAD ATLAS",
       "sourcePath": "products/road-atlas",
       "publicPath": "/road-atlas/",
+      "legacyRepository": "YoungseokOh/road-atlas-privacy",
       "legacyUrls": ["https://youngseokoh.github.io/road-atlas-privacy/"]
     },
     {
@@ -35,6 +39,7 @@
       "name": "RAIL ATLAS",
       "sourcePath": "products/rail-atlas",
       "publicPath": "/rail-atlas/",
+      "legacyRepository": "YoungseokOh/rail-atlas-privacy",
       "legacyUrls": ["https://youngseokoh.github.io/rail-atlas-privacy/"]
     },
     {
@@ -42,11 +47,26 @@
       "name": "Vloglet",
       "sourcePath": "products/vloglet",
       "publicPath": "/vloglet/",
+      "legacyRepository": "YoungseokOh/vloglet-legal",
       "legacyUrls": ["https://youngseokoh.github.io/vloglet-legal/"]
+    },
+    {
+      "id": "sail-atlas",
+      "name": "SAIL ATLAS",
+      "sourcePath": "products/sail-atlas",
+      "publicPath": "/sail-atlas/",
+      "registeredPolicyUrls": [
+        "https://gist.github.com/YoungseokOh/26a0c1f3bdac3627e26b98f93574a145"
+      ]
+    },
+    {
+      "id": "focus-atlas",
+      "name": "FOCUS ATLAS",
+      "sourcePath": "products/focus-atlas",
+      "publicPath": "/focus-atlas/",
+      "registeredPolicyUrls": [
+        "https://sites.google.com/view/focus-atlas-app/"
+      ]
     }
-  ],
-  "notYetHosted": [
-    {"id": "sail-atlas", "name": "SAIL ATLAS", "reason": "No public policy repository or policy URL exists yet."},
-    {"id": "focus-atlas", "name": "FOCUS ATLAS", "reason": "No public policy repository or policy URL exists yet."}
   ]
 }
