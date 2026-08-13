@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "owner": "ZEROSEOK",
+  "products": [
+    {
+      "id": "grammarlyzer",
+      "name": "Grammarlyzer",
+      "sourcePath": "products/grammarlyzer",
+      "publicPath": "/grammarlyzer/",
+      "legacyUrls": ["https://youngseokoh.github.io/grammarlyzer-privacy/"]
+    },
+    {
+      "id": "heisei",
+      "name": "Heisei",
+      "sourcePath": "products/heisei",
+      "publicPath": "/heisei/",
+      "legacyUrls": ["https://youngseokoh.github.io/heisei-legal/"]
+    },
+    {
+      "id": "malgil",
+      "name": "Malgil",
+      "sourcePath": "products/malgil",
+      "publicPath": "/malgil/",
+      "legacyUrls": ["https://youngseokoh.github.io/malgil-privacy/"]
+    },
+    {
+      "id": "road-atlas",
+      "name": "ROAD ATLAS",
+      "sourcePath": "products/road-atlas",
+      "publicPath": "/road-atlas/",
+      "legacyUrls": ["https://youngseokoh.github.io/road-atlas-privacy/"]
+    },
+    {
+      "id": "rail-atlas",
+      "name": "RAIL ATLAS",
+      "sourcePath": "products/rail-atlas",
+      "publicPath": "/rail-atlas/",
+      "legacyUrls": ["https://youngseokoh.github.io/rail-atlas-privacy/"]
+    },
+    {
+      "id": "vloglet",
+      "name": "Vloglet",
+      "sourcePath": "products/vloglet",
+      "publicPath": "/vloglet/",
+      "legacyUrls": ["https://youngseokoh.github.io/vloglet-legal/"]
+    }
+  ],
+  "notYetHosted": [
+    {"id": "sail-atlas", "name": "SAIL ATLAS", "reason": "No public policy repository or policy URL exists yet."},
+    {"id": "focus-atlas", "name": "FOCUS ATLAS", "reason": "No public policy repository or policy URL exists yet."}
+  ]
+}

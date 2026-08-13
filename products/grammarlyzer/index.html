@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for the Grammarlyzer Android app provided by ZEROSEOK.">
+  <title>Grammarlyzer Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --primary: #667eea;
+      --secondary: #764ba2;
+      --bg: #f7f7fb;
+      --surface: #ffffff;
+      --text: #202334;
+      --muted: #62677b;
+      --line: #e3e5ef;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: linear-gradient(145deg, #f6f3ff 0%, var(--bg) 38%, #f5f8ff 100%);
+      color: var(--text);
+      font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    main { max-width: 820px; margin: 0 auto; padding: 36px 20px 80px; }
+    article {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: clamp(24px, 5vw, 52px);
+      box-shadow: 0 20px 60px rgba(62, 50, 100, .08);
+    }
+    h1, h2, h3 { line-height: 1.3; }
+    h1 { margin: 0 0 8px; font-size: clamp(1.8rem, 5vw, 2.55rem); }
+    h2 { margin: 36px 0 10px; font-size: 1.35rem; }
+    h3 { margin: 24px 0 8px; font-size: 1.05rem; }
+    p, ul { margin: 8px 0; }
+    ul { padding-left: 1.35rem; }
+    a { color: var(--primary); }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 24px;
+      color: var(--secondary);
+      font-weight: 750;
+      letter-spacing: .01em;
+    }
+    .mark {
+      display: grid;
+      place-items: center;
+      width: 34px;
+      height: 34px;
+      border-radius: 10px;
+      color: white;
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+    }
+    .meta { color: var(--muted); }
+    .summary {
+      margin: 24px 0;
+      padding: 18px 20px;
+      border-left: 4px solid var(--primary);
+      border-radius: 0 14px 14px 0;
+      background: rgba(102, 126, 234, .08);
+    }
+    .language-divider { border: 0; border-top: 1px solid var(--line); margin: 52px 0; }
+    footer { margin-top: 24px; text-align: center; color: var(--muted); font-size: .9rem; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #11121a; --surface: #191b26; --text: #f0f1f7; --muted: #aeb2c5; --line: #303344; }
+      body { background: linear-gradient(145deg, #171326 0%, var(--bg) 45%, #101620 100%); }
+      article { box-shadow: none; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <article>
+    <div class="brand"><span class="mark">G</span> Grammarlyzer by ZEROSEOK</div>
+    <h1>Privacy Policy</h1>
+    <p class="meta"><strong>Effective date:</strong> July 14, 2026</p>
+    <p>
+      This Privacy Policy explains how the Grammarlyzer Android application
+      (package <code>com.grammarlyzer.app</code>), provided by ZEROSEOK
+      ("Grammarlyzer", "we", or "us"), accesses, collects, uses, shares, retains,
+      and deletes information.
+    </p>
+
+    <div class="summary">
+      <strong>Summary.</strong> Routine grammar checking runs on your device. Text is
+      sent off the device only when you expressly request AI Polish or use a cloud
+      synchronization feature. Free users may see Google-served ads. We do not sell
+      your personal information.
+    </div>
+
+    <h2>1. Information processed on your device</h2>
+    <p>
+      Text entered, pasted, selected through Android's text-processing menu, or
+      shared to Grammarlyzer is checked by the app's local grammar engine. Routine
+      grammar checking does not send that text to Grammarlyzer servers.
+    </p>
+    <p>
+      Editor drafts, app settings, theme preferences, local polish history, and
+      personal-dictionary terms may be stored in the app's private storage. This
+      local data remains on the device unless a cloud feature described below is
+      used. It can be removed from the app where that control is available or by
+      uninstalling the app.
+    </p>
+
+    <h2>2. Account and authentication data</h2>
+    <p>Grammarlyzer uses Firebase Authentication. Depending on how you use the app:</p>
+    <ul>
+      <li>An anonymous Firebase user identifier may be created when you try the limited AI Polish trial without creating a permanent account.</li>
+      <li>If you sign in with Google, we receive your Firebase user identifier and basic Google profile information made available for authentication, such as your email address and display name.</li>
+      <li>If you use email and password, Firebase processes your email address and authentication credentials. Grammarlyzer does not receive your plaintext password.</li>
+    </ul>
+    <p>We use this information to authenticate you, separate account data, enforce usage limits, synchronize eligible Pro features, and manage subscription entitlement.</p>
+
+    <h2>3. AI Polish</h2>
+    <p>
+      AI Polish is optional and runs only after you request it. The submitted text,
+      chosen style, optional voice or custom instruction, and protected terms needed
+      for that request are sent over HTTPS to Grammarlyzer's backend. The backend
+      forwards the request to an AI-processing provider, currently OpenAI, or to a
+      service operating on our behalf, and returns the generated result.
+    </p>
+    <p>
+      Grammarlyzer's request handler does not intentionally write the raw AI request
+      text into quota or billing records. The provider may process and retain request
+      data under its applicable service terms and privacy commitments. Do not submit
+      sensitive, confidential, regulated, or third-party information unless you are
+      authorized and comfortable sending it for cloud processing.
+    </p>
+
+    <h2>4. Cloud-synchronized content and usage records</h2>
+    <p>Firebase Firestore may store the following data under your Firebase user identifier:</p>
+    <ul>
+      <li>Monthly AI Polish usage counts, limits, and entitlement status.</li>
+      <li>For eligible signed-in Pro users, recent AI Polish history, including original text, polished text, selected style, and time created.</li>
+      <li>For eligible signed-in Pro users, personal-dictionary or protected terms used for synchronization across devices.</li>
+      <li>Subscription status and verification records described below.</li>
+    </ul>
+    <p>
+      Local Polish history is limited by the app. Cloud-synchronized Pro history is
+      also bounded by the service. You can clear eligible history in the app or
+      delete the account and associated cloud data.
+    </p>
+
+    <h2>5. Subscriptions and Google Play Billing</h2>
+    <p>
+      Monthly and yearly Pro subscriptions are processed by Google Play. Google
+      handles payment-card and billing-account details; Grammarlyzer does not receive
+      or store your full payment information. To verify entitlement, the app and
+      backend process your Firebase user identifier, product identifier, purchase
+      token, subscription state, expiry time, latest order identifier, and verification
+      timestamps. A hashed purchase-token record is used to prevent the same purchase
+      from being claimed by multiple accounts.
+    </p>
+
+    <h2>6. Advertising and consent</h2>
+    <p>
+      Free users may see banner ads supplied by Google AdMob. The Google Mobile Ads
+      SDK and Google's User Messaging Platform may process advertising identifiers,
+      device and app information, IP address, approximate location inferred from IP,
+      consent choices, and ad impressions or interactions to provide, limit,
+      personalize where permitted, measure, secure, and prevent fraud in advertising.
+      Available consent choices depend on your region and device settings. Pro users
+      are intended to receive an ad-free experience while their entitlement is active.
+    </p>
+
+    <h2>7. Permissions</h2>
+    <ul>
+      <li><strong>Internet:</strong> used for Firebase authentication and synchronization, AI Polish, Google Play Billing verification, and advertising.</li>
+      <li><strong>Advertising ID / Ad Services:</strong> may be included by the Google Mobile Ads SDK for advertising and measurement as permitted by Android and your choices.</li>
+    </ul>
+
+    <h2>8. Service providers and sharing</h2>
+    <p>We use service providers only for the app functions described in this policy:</p>
+    <ul>
+      <li>Google Firebase for authentication, Firestore storage, Cloud Functions, and API hosting.</li>
+      <li>Google Play for subscription purchase and entitlement verification.</li>
+      <li>Google AdMob and User Messaging Platform for advertising and consent management.</li>
+      <li>OpenAI or another contracted AI-processing service for user-requested AI Polish.</li>
+      <li>GitHub Pages to host this public policy page; GitHub may process standard web-request logs when you visit it.</li>
+    </ul>
+    <p>We do not sell personal information. Providers process information under their own terms and privacy policies and according to the service configuration we use.</p>
+
+    <h2>9. Security</h2>
+    <p>
+      Network requests use HTTPS. Authentication tokens are used to authorize protected
+      endpoints, and account data is separated by Firebase user identifier. No method
+      of storage or transmission is completely secure, so absolute security cannot be
+      guaranteed.
+    </p>
+
+    <h2>10. Retention and deletion</h2>
+    <ul>
+      <li>Local data remains until you clear it, delete the relevant account data, or uninstall the app.</li>
+      <li>Cloud account, usage, synchronized content, and billing-verification records are retained while needed to provide the service, enforce limits, verify purchases, protect against abuse, or comply with legal obligations.</li>
+      <li>The in-app <strong>Settings → Account → Delete account</strong> action deletes your Firebase account and associated Grammarlyzer account data.</li>
+      <li>You may also request deletion through the public <a href="https://grammarlyzer.com/account-deletion.html">Account &amp; Data Deletion page</a>.</li>
+    </ul>
+    <p>
+      Deleting your Grammarlyzer account does not automatically cancel a Google Play
+      subscription or request a refund. Manage subscriptions separately in Google Play.
+      Limited records may be retained when legally required or reasonably necessary for
+      fraud prevention, dispute resolution, or enforcement, and will not be used for
+      unrelated purposes.
+    </p>
+
+    <h2>11. Children's privacy</h2>
+    <p>
+      Grammarlyzer is a general-audience writing tool and is not directed to children
+      under 13 or the minimum age required by local law to manage an account. We do not
+      knowingly collect personal information from children contrary to applicable law.
+    </p>
+
+    <h2>12. Changes and contact</h2>
+    <p>We may update this policy as the app or its providers change. The effective date above will be updated when material changes are published.</p>
+    <p>For privacy questions or deletion assistance, contact <a href="mailto:seok7302@gmail.com">seok7302@gmail.com</a>.</p>
+
+    <hr class="language-divider">
+
+    <h1 lang="ko">개인정보처리방침</h1>
+    <p class="meta" lang="ko"><strong>시행일:</strong> 2026년 7월 14일</p>
+    <p lang="ko">
+      본 개인정보처리방침은 ZEROSEOK이 제공하는 Grammarlyzer Android 앱
+      (패키지 <code>com.grammarlyzer.app</code>)이 정보를 접근, 수집, 이용, 제공,
+      보관 및 삭제하는 방법을 설명합니다.
+    </p>
+
+    <div class="summary" lang="ko">
+      <strong>요약.</strong> 일반 문법 검사는 기기에서 처리됩니다. 사용자가 AI Polish를
+      직접 요청하거나 클라우드 동기화 기능을 이용할 때만 관련 텍스트가 기기 밖으로
+      전송됩니다. 무료 사용자는 Google 광고를 볼 수 있습니다. 당사는 개인정보를
+      판매하지 않습니다.
+    </div>
+
+    <h2 lang="ko">1. 기기 내에서 처리되는 정보</h2>
+    <p lang="ko">
+      앱에 입력·붙여넣기한 텍스트와 Android의 텍스트 처리 또는 공유 기능으로 전달한
+      텍스트는 로컬 문법 엔진에서 검사됩니다. 일반 문법 검사를 위해 해당 텍스트를
+      Grammarlyzer 서버로 보내지 않습니다.
+    </p>
+    <p lang="ko">
+      편집기 초안, 앱 설정, 테마, 로컬 Polish 기록, 개인 사전 용어는 앱의 비공개
+      저장공간에 보관될 수 있습니다. 아래의 클라우드 기능을 사용하지 않는 한 기기
+      밖으로 전송되지 않으며, 앱의 삭제 기능 또는 앱 제거를 통해 삭제할 수 있습니다.
+    </p>
+
+    <h2 lang="ko">2. 계정 및 인증 정보</h2>
+    <p lang="ko">앱은 Firebase Authentication을 사용하며, 이용 방식에 따라 다음 정보가 처리됩니다.</p>
+    <ul lang="ko">
+      <li>정식 계정 없이 제한된 AI Polish 체험을 시작하면 익명 Firebase 사용자 식별자가 생성될 수 있습니다.</li>
+      <li>Google 로그인 시 Firebase 사용자 식별자와 이메일 주소, 표시 이름 등 인증에 필요한 기본 프로필 정보를 제공받습니다.</li>
+      <li>이메일·비밀번호 로그인 시 Firebase가 이메일과 인증 정보를 처리하며, Grammarlyzer는 평문 비밀번호를 받지 않습니다.</li>
+    </ul>
+    <p lang="ko">이 정보는 인증, 계정별 데이터 구분, 사용량 제한, Pro 기능 동기화 및 구독 권한 관리에 사용됩니다.</p>
+
+    <h2 lang="ko">3. AI Polish</h2>
+    <p lang="ko">
+      AI Polish는 사용자가 직접 요청할 때만 실행됩니다. 제출한 텍스트, 선택 스타일,
+      선택적 음성·사용자 지침 및 요청 처리에 필요한 보호 용어가 HTTPS를 통해
+      Grammarlyzer 백엔드로 전송됩니다. 백엔드는 요청을 현재 OpenAI 등 AI 처리업체
+      또는 당사를 대신해 운영되는 서비스에 전달하고 결과를 반환합니다.
+    </p>
+    <p lang="ko">
+      Grammarlyzer 요청 처리기는 원문을 사용량 또는 결제 기록에 의도적으로 저장하지
+      않습니다. 다만 AI 처리업체는 적용되는 서비스 약관과 개인정보 보호 기준에 따라
+      요청 데이터를 처리·보관할 수 있습니다. 민감하거나 기밀인 정보는 전송에 대한
+      권한과 필요성을 확인한 후 이용해 주세요.
+    </p>
+
+    <h2 lang="ko">4. 클라우드 동기화 콘텐츠 및 사용 기록</h2>
+    <p lang="ko">Firebase Firestore는 Firebase 사용자 식별자와 연결하여 다음 정보를 저장할 수 있습니다.</p>
+    <ul lang="ko">
+      <li>월별 AI Polish 사용 횟수, 한도 및 계정 권한 상태</li>
+      <li>대상 Pro 계정의 최근 AI Polish 원문, 결과문, 스타일 및 생성 시각</li>
+      <li>대상 Pro 계정의 개인 사전·보호 용어</li>
+      <li>아래에서 설명하는 구독 상태 및 검증 기록</li>
+    </ul>
+    <p lang="ko">로컬 및 클라우드 기록에는 수량 제한이 적용됩니다. 앱에서 대상 기록을 지우거나 계정과 연결된 클라우드 데이터를 삭제할 수 있습니다.</p>
+
+    <h2 lang="ko">5. 구독 및 Google Play 결제</h2>
+    <p lang="ko">
+      월간·연간 Pro 구독은 Google Play가 처리합니다. 카드 및 결제 계정 정보는 Google이
+      관리하며 당사는 전체 결제정보를 받거나 저장하지 않습니다. 구독 권한 검증을 위해
+      Firebase 사용자 식별자, 상품 ID, 구매 토큰, 구독 상태, 만료 시각, 최근 주문 ID 및
+      검증 시각을 처리합니다. 동일 구매의 중복 사용을 막기 위해 구매 토큰의 해시 기록을
+      사용합니다.
+    </p>
+
+    <h2 lang="ko">6. 광고 및 동의</h2>
+    <p lang="ko">
+      무료 사용자는 Google AdMob 배너 광고를 볼 수 있습니다. Google Mobile Ads SDK와
+      User Messaging Platform은 광고 제공·제한·허용된 개인화·측정·보안·부정 이용 방지를
+      위해 광고 식별자, 기기·앱 정보, IP 주소, IP로 추정한 대략적 위치, 동의 선택 및 광고
+      노출·상호작용 정보를 처리할 수 있습니다. 선택 가능한 동의 항목은 지역과 기기 설정에
+      따라 달라집니다. Pro 권한이 활성화된 동안에는 광고가 표시되지 않도록 설계되었습니다.
+    </p>
+
+    <h2 lang="ko">7. 권한</h2>
+    <ul lang="ko">
+      <li><strong>인터넷:</strong> Firebase 인증·동기화, AI Polish, Google Play 구독 검증 및 광고에 사용됩니다.</li>
+      <li><strong>광고 ID / Ad Services:</strong> Android 정책과 사용자 선택이 허용하는 범위에서 Google 광고 SDK가 광고 및 측정 목적으로 포함할 수 있습니다.</li>
+    </ul>
+
+    <h2 lang="ko">8. 처리업체 및 정보 제공</h2>
+    <ul lang="ko">
+      <li>Google Firebase: 인증, Firestore, Cloud Functions 및 API 호스팅</li>
+      <li>Google Play: 구독 구매 및 권한 검증</li>
+      <li>Google AdMob 및 User Messaging Platform: 광고와 동의 관리</li>
+      <li>OpenAI 또는 계약된 AI 처리 서비스: 사용자가 요청한 AI Polish</li>
+      <li>GitHub Pages: 본 공개 방침 페이지 호스팅 및 방문 시 표준 웹 요청 로그 처리 가능</li>
+    </ul>
+    <p lang="ko">당사는 개인정보를 판매하지 않습니다. 각 제공업체는 자체 약관·개인정보 보호정책 및 당사가 설정한 서비스 구성에 따라 정보를 처리합니다.</p>
+
+    <h2 lang="ko">9. 보안</h2>
+    <p lang="ko">
+      네트워크 요청은 HTTPS를 사용합니다. 보호된 API는 인증 토큰으로 접근을 확인하고,
+      계정 데이터는 Firebase 사용자 식별자로 구분합니다. 다만 어떠한 저장·전송 방식도
+      완전한 보안을 보장할 수 없습니다.
+    </p>
+
+    <h2 lang="ko">10. 보관 및 삭제</h2>
+    <ul lang="ko">
+      <li>로컬 데이터는 사용자가 지우거나, 계정 데이터를 삭제하거나, 앱을 제거할 때까지 보관됩니다.</li>
+      <li>클라우드 계정·사용량·동기화 콘텐츠·결제 검증 기록은 서비스 제공, 한도 적용, 구매 검증, 부정 이용 방지 및 법적 의무에 필요한 동안 보관됩니다.</li>
+      <li>앱의 <strong>Settings → Account → Delete account</strong>에서 Firebase 계정과 연결된 Grammarlyzer 계정 데이터를 삭제할 수 있습니다.</li>
+      <li><a href="https://grammarlyzer.com/account-deletion.html">계정 및 데이터 삭제 페이지</a>를 통해서도 삭제를 요청할 수 있습니다.</li>
+    </ul>
+    <p lang="ko">
+      Grammarlyzer 계정을 삭제해도 Google Play 구독이 자동 취소되거나 환불이 요청되지는
+      않습니다. 구독은 Google Play에서 별도로 관리해 주세요. 법적 의무, 부정 이용 방지,
+      분쟁 해결 등에 합리적으로 필요한 제한된 기록은 관련 목적에 한해 보관될 수 있습니다.
+    </p>
+
+    <h2 lang="ko">11. 아동의 개인정보</h2>
+    <p lang="ko">
+      Grammarlyzer는 일반 사용자를 위한 글쓰기 도구이며 만 13세 미만 또는 지역 법률상
+      독립적으로 계정을 관리할 수 있는 최소 연령 미만의 아동을 대상으로 하지 않습니다.
+      관련 법률에 반하여 아동의 개인정보를 고의로 수집하지 않습니다.
+    </p>
+
+    <h2 lang="ko">12. 변경 및 문의</h2>
+    <p lang="ko">앱 또는 제공업체 변경에 따라 본 방침을 업데이트할 수 있으며, 중요한 변경사항을 게시할 때 시행일을 갱신합니다.</p>
+    <p lang="ko">개인정보 문의 또는 삭제 지원: <a href="mailto:seok7302@gmail.com">seok7302@gmail.com</a></p>
+  </article>
+  <footer>© 2026 ZEROSEOK · Grammarlyzer</footer>
+</main>
+</body>
+</html>

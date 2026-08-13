@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="malgil-policy-source-sha256" content="d0a933e4c8e55f3ad3909981b0a265d5a5935501c9c74620de643fd34a2e9fe1">
+  <meta name="description" content="Privacy policy and account deletion instructions for the Malgil Korean vocabulary app.">
+  <title>Malgil Privacy Policy</title>
+  <style>
+    :root { color-scheme: light dark; --paper: #fffaf0; --ink: #29251e; --muted: #696158; --accent: #735a2d; --line: #d9cdb8; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { background: #f7f2e7; color: var(--ink); font-family: ui-serif, Georgia, Cambria, "Times New Roman", serif; line-height: 1.7; margin: 0; }
+    main { max-width: 760px; margin: 0 auto; padding: 3rem 1.25rem 5rem; }
+    article { background: var(--paper); border: 1px solid var(--line); border-radius: 20px; box-shadow: 0 16px 50px rgb(50 42 28 / 9%); padding: clamp(1.5rem, 5vw, 3.25rem); }
+    h1, h2, h3 { line-height: 1.25; }
+    h1 { font-size: clamp(2rem, 7vw, 3.25rem); margin: 0 0 .5rem; }
+    h2 { border-top: 1px solid var(--line); font-size: 1.4rem; margin-top: 2.4rem; padding-top: 1.8rem; }
+    h3 { font-size: 1.08rem; margin-top: 1.8rem; }
+    a { color: var(--accent); text-underline-offset: .18em; }
+    .updated { color: var(--muted); margin-top: 0; }
+    .cta { background: var(--accent); border-radius: 999px; color: #fff; display: inline-block; font-family: ui-sans-serif, system-ui, sans-serif; font-weight: 700; padding: .25rem .7rem; text-decoration: none; }
+    code { background: rgb(127 127 127 / 14%); border-radius: 4px; padding: .1em .32em; }
+    #account-deletion { display: block; scroll-margin-top: 1rem; }
+    @media (prefers-color-scheme: dark) {
+      :root { --paper: #211e17; --ink: #eee5d5; --muted: #b9ae9d; --accent: #dfbd7a; --line: #4b4336; }
+      body { background: #17150f; }
+      .cta { color: #17150f; }
+    }
+  </style>
+</head>
+<body>
+<main>
+<article>
+<h1>Malgil Privacy Policy</h1>
+
+<p class="updated">Last updated: 2026-07-15</p>
+
+<p>Malgil (&quot;the app&quot;) is a local-first Korean vocabulary learning app developed and operated by Youngseok Oh (&quot;we&quot; or &quot;us&quot;). This policy explains what data the app collects, how it is used, and the choices you have. It reflects the app&#x27;s release-default behavior as built.</p>
+
+<h2>Summary</h2>
+
+<ul>
+  <li>Your learning progress is stored <strong>on your device only</strong>. We do not run a backend that syncs or stores your study history.</li>
+  <li>Android cloud backup, restore, and device-to-device transfer are disabled for app-private data, including learning progress.</li>
+  <li>We use <strong>Google Sign-In</strong> and Firebase Authentication only to identify your local learning journal on the device and manage your account.</li>
+  <li>Optional spoken practice uses on-device speech recognition only. Malgil does not retain or upload your audio or recognized text.</li>
+  <li>We use <strong>Firebase Crashlytics</strong>, including its Firebase Installations and Firebase Sessions dependencies, to receive crash and stability diagnostics so we can fix bugs. Crash reporting is disabled in development builds.</li>
+  <li>We do <strong>not</strong> sell personal data, use it for advertising, or allow our service providers to use it for their own advertising.</li>
+</ul>
+
+<h2>Data We Collect</h2>
+
+<h3>Account identity (Google Sign-In)</h3>
+
+<p>When you sign in with Google, Firebase Authentication creates a Firebase Authentication user ID (Firebase UID) and processes basic Google profile metadata such as your email address, display name, and profile photo URL. Malgil uses the Firebase UID, email address, and display name to identify and scope the local learning journal. Google and Firebase may process the profile photo URL as federated identity metadata, but Malgil does not read, display, download, or separately store it in the current release.</p>
+
+<p>Firebase Authentication also automatically processes the request IP address, Firebase and Authentication user-agent information (including app, SDK, platform, OS, and device metadata), and the Firebase Android App ID. Firebase uses these details to deliver authentication and account management, prevent abuse, provide security, and maintain its service. Malgil does not use the IP address to derive or store your location.</p>
+
+<h3>Learning progress (stored locally)</h3>
+
+<p>Your study sessions, review queue, mastery state, streaks, and related learning progress are stored locally on your device using the device&#x27;s app storage (<code>shared_preferences</code>). This data is keyed to your signed-in Firebase UID and is <strong>not transmitted to a Malgil server</strong>.</p>
+
+<h3>Crash diagnostics (Firebase Crashlytics)</h3>
+
+<p>In production builds, if the app crashes or encounters an unhandled error, Firebase Crashlytics receives stack traces, relevant app state, device and app metadata, a pseudonymous Crashlytics installation UUID, and non-fatal or fatal error details. Its Firebase Installations dependency processes a per-install Firebase installation ID, and Firebase Sessions processes app, device, network, and session metadata such as when the app enters the foreground to start a new session. We do <strong>not</strong> attach your name, email, or Firebase UID to crash reports or add custom analytics events. Crash reporting is <strong>disabled</strong> in development and test builds.</p>
+
+<h3>Optional spoken practice (on device only)</h3>
+
+<p>If you choose spoken practice, the app asks for microphone permission and uses the device&#x27;s dedicated on-device speech recognizer for a short Korean utterance. The feature is unavailable when the device cannot guarantee on-device recognition. Audio and recognized text are used only for immediate self-check feedback; Malgil does not persist them, send them to its servers, or use them for correctness, scoring, mastery, progression, or review scheduling.</p>
+
+<h3>Optional AI helper (off by default)</h3>
+
+<p>The app contains an optional helper that can request a written explanation of a mistake from a server-side proxy. This feature is <strong>disabled by default</strong> and is only active if the app is explicitly built with the AI proxy enabled. The mobile app never stores or transmits any third-party AI provider API key. When enabled, the request contains the word ID, Korean form, romanization, English gloss, Korean and English examples, and the local mastery-status label needed to obtain an explanation. It does not contain your name, email, Firebase UID, audio, or full study history, and the response is never authoritative for scoring or grading. We will update this policy and the Google Play Data Safety declaration before distributing a build with this transport enabled.</p>
+
+<h2>How We Use Data</h2>
+
+<ul>
+  <li>To let you sign in and keep your learning progress separate per Google account on a shared device.</li>
+  <li>To store and restore your study and review progress locally.</li>
+  <li>To provide optional, ephemeral spoken-practice feedback on your device.</li>
+  <li>To diagnose crashes, measure release stability, and fix reliability issues.</li>
+</ul>
+
+<p>We do <strong>not</strong> use your data for advertising, profiling, or sale.</p>
+
+<h2>Permissions</h2>
+
+<ul>
+  <li><strong>Internet</strong>: declared so the optional AI helper transport and Firebase services (Authentication, Crashlytics) can work when used. The core learning loop (study, review, progression) works fully offline.</li>
+  <li><strong>Microphone</strong>: requested only when you use optional spoken practice. Speech recognition must stay on device; the helper remains unavailable when that guarantee cannot be met.</li>
+</ul>
+
+<h2>Service Providers and Data Sharing</h2>
+
+<p>We do not sell personal data or share it with third parties for their independent advertising or profiling. Google and Firebase process account identity and crash diagnostic data as service providers acting on our behalf. They may use approved subprocessors to deliver those services. We do not include advertising or Firebase Analytics SDKs in the current release.</p>
+
+<h2>Security</h2>
+
+<p>Firebase encrypts the account and diagnostic data described above while it is transmitted using HTTPS and protects stored service data according to its security controls. Local learning data stays in Android app-private storage, which is isolated by the operating system. Android cloud backup, restore, and device-to-device transfer are disabled for Malgil app-private data. No method of storage or transmission is completely secure, but we limit collection and keep the core learning loop local to reduce exposure.</p>
+
+<h2>Data Retention and Deletion</h2>
+
+<ul>
+  <li>Learning progress lives on your device until you delete it or uninstall the app. Android backup, restore, and device transfer are disabled for this data, so it is not restored automatically on another device.</li>
+  <li>The app provides an in-app <strong>Delete account</strong> action (Profile → Account). It deletes your Firebase Authentication account, removes the learning progress and profile settings scoped to your Google account on that device, disables that account&#x27;s reminder preference, and cancels the pending practice reminder.</li>
+  <li>When account deletion starts, Malgil stores the Firebase account identifier and deletion stage on that device until Firebase&#x27;s outcome is confirmed and the remaining removal succeeds, or you clear Malgil&#x27;s app storage. If the outcome cannot be confirmed, Malgil keeps this record and pauses sign-in so it can retry without deleting learning data based only on a missing local session.</li>
+  <li>Uninstalling the app removes locally stored learning data for that device.</li>
+  <li>Firebase Authentication retains account data until the account is deleted. According to Firebase&#x27;s published retention information, Authentication data is removed from live and backup systems within 180 days after deletion, while Authentication IP-address logs are retained for a few weeks.</li>
+  <li>Firebase Crashlytics retains crash reports, Crashlytics installation UUIDs, and associated installation identifiers for 90 days before deletion.</li>
+  <li>Email correspondence for an external deletion request is retained only as needed to verify, complete, and document the request, then deleted within 30 days after completion unless longer retention is required for security or legal compliance.</li>
+</ul>
+
+<a id="account-deletion"></a>
+
+<h2>Account Deletion Request</h2>
+
+<p>The fastest option is <strong>Profile → Account → Delete account</strong> in the app. This deletes the Firebase Authentication account and the data scoped to that account on the current device, including learning progress, profile preferences, and the pending practice reminder.</p>
+
+<p>If you cannot access the app, email <a class="cta" href="mailto:seok7302@gmail.com?subject=Malgil%20account%20deletion%20request">seok7302@gmail.com</a> with the subject <strong>Malgil account deletion request</strong>. Send the request from the Google email address used to sign in to Malgil when possible. We may request additional information only when needed to verify account ownership. We aim to complete a verified request within 7 calendar days and will confirm when the Firebase Authentication account has been deleted.</p>
+
+<p>Because Malgil has no server copy of your learning progress, we cannot remotely view or erase learning data that exists only on a device. After requesting deletion by email, clear Malgil&#x27;s app storage in Android Settings or uninstall the app on every device where you used it. This removes the remaining local learning data. Crash diagnostics follow the separate 90-day retention period above and are not linked by Malgil to your Firebase UID, email, or name.</p>
+
+<h2>Children&#x27;s Privacy</h2>
+
+<p>Malgil is a general-audience learning app and is not directed at children under the age required by your local law for independent account creation.</p>
+
+<h2>Changes to This Policy</h2>
+
+<p>We may update this policy as the app evolves. Material changes will be reflected by updating the &quot;Last updated&quot; date above.</p>
+
+<h2>Contact</h2>
+
+<p>For privacy questions or data deletion help, contact: seok7302@gmail.com</p>
+</article>
+</main>
+</body>
+</html>
