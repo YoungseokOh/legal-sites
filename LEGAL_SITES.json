@@ -67,6 +67,13 @@
       "registeredPolicyUrls": [
         "https://sites.google.com/view/focus-atlas-app/"
       ]
+    },
+    {
+      "id": "fromo",
+      "name": "fromo — Photo Ready",
+      "sourcePath": "products/fromo",
+      "publicPath": "/fromo/",
+      "legacyUrls": []
     }
   ]
 }
