@@ -22,6 +22,8 @@ The six legacy GitHub Pages repositories remain compatibility hosts. They contai
 generated, full-content mirrors so URLs already recorded in Google Play work even
 for clients that do not execute JavaScript. Edit only this repository, then sync
 the mirrors with `node scripts/build.mjs --sync-legacy` from clean local checkouts.
+Local compatibility checkouts live under the ignored `.legacy-checkouts/`
+directory so they do not clutter the parent Projects directory or enter this repo.
 
 SAIL ATLAS and FOCUS ATLAS are now managed here as well. Their currently recorded
 external policy URLs remain listed in `LEGAL_SITES.json` until a separately

@@ -24,7 +24,12 @@ function assertUnique(products, field) {
 
 async function legacyCheckout(repository) {
   const name = repository.split('/').at(-1);
-  const candidates = [path.join(root, '..', name), path.join(root, '..', `${name}-public`)];
+  const candidates = [
+    path.join(root, '.legacy-checkouts', name),
+    path.join(root, '.legacy-checkouts', `${name}-public`),
+    path.join(root, '..', name),
+    path.join(root, '..', `${name}-public`),
+  ];
   for (const candidate of candidates) {
     try {
       await stat(path.join(candidate, '.git'));
