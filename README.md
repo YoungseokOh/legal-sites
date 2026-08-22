@@ -17,6 +17,7 @@ Each product owns its source in `products/<product-id>/`. The GitHub Pages workf
 | FOCUS ATLAS | `/focus-atlas/` | Play currently uses the recorded Google Sites URL |
 | Vloglet | `/vloglet/` | `vloglet-legal` |
 | fromo — Photo Ready | `/fromo/` | — |
+| Hangulario | `/hangulario/` | — |
 
 The six legacy GitHub Pages repositories remain compatibility hosts. They contain
 generated, full-content mirrors so URLs already recorded in Google Play work even

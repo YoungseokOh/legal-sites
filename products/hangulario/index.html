@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Política de privacidad de Hangulario, diario en coreano con explicaciones en español." />
+  <title>Política de privacidad — Hangulario</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <a class="brand" href="./">Hangulario</a>
+    <nav aria-label="Información legal">
+      <a aria-current="page" href="./">Privacidad</a>
+      <a href="terms.html">Términos</a>
+      <a href="delete-account.html">Eliminar cuenta y datos</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Política de privacidad</h1>
+    <p class="updated">Última actualización: 22 de agosto de 2026</p>
+
+    <h2>1. Introducción</h2>
+    <p>Hangulario (la «Aplicación») ayuda a personas hispanohablantes a escribir un diario en coreano, comprobar el texto en el dispositivo, solicitar correcciones con inteligencia artificial y reutilizar lo aprendido. Esta política explica qué información se trata y con qué finalidad.</p>
+
+    <h2>2. Información tratada</h2>
+    <p>La Aplicación puede tratar la siguiente información cuando sea necesaria para prestar sus funciones:</p>
+    <ul>
+      <li>título, texto, fecha, estado de ánimo, correcciones, vocabulario y progreso de aprendizaje de las entradas creadas por el usuario;</li>
+      <li>fotografías que el usuario elige añadir y la posición visual elegida para cada foto;</li>
+      <li>preferencias de tema, tamaño de texto, recordatorios y otros ajustes locales;</li>
+      <li>si el usuario vincula Google: identificador de cuenta, nombre visible, correo electrónico y URL de la imagen de perfil;</li>
+      <li>para las solicitudes al Tutor IA: identificador de la entrada, título, texto, resultados locales de Korlint y el contexto mínimo necesario para aplicar límites de uso y generar la respuesta;</li>
+      <li>datos técnicos limitados, como versión de la aplicación, identificador de instalación o de cuenta, métricas de uso de funciones y tipo de error, cuando la recopilación correspondiente está habilitada en la versión distribuida.</li>
+    </ul>
+
+    <h2>3. Almacenamiento del diario y las fotos</h2>
+    <p>El diario se guarda primero en el dispositivo. Si el usuario vincula una cuenta de Google, las entradas y sus datos relacionados pueden copiarse a Firebase para respaldo y restauración en otro dispositivo.</p>
+    <p>Las fotografías añadidas al diario se guardan en el almacenamiento privado de la Aplicación. Hangulario no incluye las fotos en la copia de seguridad de Firebase ni las envía al Tutor IA.</p>
+    <p>Una entrada enviada a la papelera se conserva localmente durante 30 días, salvo que el usuario la elimine de forma permanente antes. La eliminación permanente también borra la foto local asociada. Desinstalar la Aplicación elimina los datos privados del dispositivo, aunque una copia en la nube vinculada a una cuenta requiere una solicitud de eliminación independiente.</p>
+    <p>Android también puede incluir la base de datos y las preferencias de la Aplicación en la copia de seguridad del dispositivo, según los ajustes de copia de seguridad de Google del usuario. Las fotos de Hangulario están excluidas de esa copia configurada por la Aplicación.</p>
+
+    <h2>4. Comprobación local y Tutor IA</h2>
+    <p>Korlint realiza comprobaciones básicas de coreano en el dispositivo. El texto no se envía al Tutor IA durante esa comprobación local.</p>
+    <p>Solo cuando el usuario solicita una corrección se envían el título, el texto de la entrada, los hallazgos locales pertinentes y los identificadores técnicos necesarios a Firebase Functions. Firebase Functions procesa la solicitud mediante un proveedor externo de IA para generar la corrección en coreano y la explicación en español.</p>
+    <p>En la versión inicial sin Premium, la solicitud se limita a la entrada que el usuario ha elegido revisar. Hangulario no envía fotografías al servicio de IA. La revisión con IA es opcional: se puede escribir, editar y conservar entradas sin solicitarla.</p>
+
+    <h2>5. Cuenta, respaldo y datos del servicio</h2>
+    <p>Es posible escribir sin vincular Google. La primera función que necesita el servidor, como solicitar feedback de IA, puede crear una sesión anónima de Firebase para autenticar la solicitud, aplicar límites y prevenir abuso.</p>
+    <p>Al vincular Google, Hangulario puede respaldar las entradas en la ruta de datos propia de Hangulario. El servicio también conserva datos necesarios para el funcionamiento, como identificadores de entradas revisadas, consumo estimado, control de cuota y procedencia técnica de sesiones anónimas. El servidor no conserva el texto del diario ni la respuesta de IA en el registro de uso; la corrección se guarda con la entrada local y puede formar parte del respaldo cuando la cuenta está vinculada.</p>
+
+    <h2>6. Analítica, diagnóstico y notificaciones</h2>
+    <p>La configuración prevista para el primer lanzamiento mantiene Firebase Analytics desactivado. Si una versión futura activa analítica, esta página y la declaración de Data safety se actualizarán antes de distribuirla. El texto del diario y las fotografías no se registran como eventos de analítica.</p>
+    <p>En compilaciones de producción pueden registrarse eventos técnicos de error sin incluir el texto del diario. Los recordatorios de escritura y resúmenes semanales se programan localmente en el dispositivo y requieren el permiso de notificaciones cuando corresponda.</p>
+
+    <h2>7. Servicios de terceros</h2>
+    <p>La Aplicación utiliza servicios de Google Firebase, Google Play y un proveedor externo de IA. La información enviada se trata conforme a los contratos y políticas de esos proveedores. No vendemos información personal ni fotografías del usuario.</p>
+
+    <h2>8. Seguridad</h2>
+    <p>Las comunicaciones con los servicios en línea utilizan conexiones cifradas. También aplicamos autenticación, App Check, controles de acceso y validaciones del lado del servidor. Ningún sistema de transmisión o almacenamiento electrónico puede garantizar una seguridad absoluta.</p>
+
+    <h2>9. Privacidad de menores</h2>
+    <p>La Aplicación está dirigida a adultos de 18 años o más y no está orientada a menores de 13 años. Si descubrimos que se han tratado datos personales de un menor sin autorización adecuada, tomaremos medidas para eliminarlos.</p>
+
+    <h2>10. Eliminación de cuenta y datos</h2>
+    <p>El usuario puede abrir <strong>Ajustes &gt; Solicitar eliminación de cuenta</strong> y enviar la solicitud preparada, o escribir a <a href="mailto:seok7302@gmail.com?subject=Solicitud%20de%20eliminación%20de%20cuenta%20de%20Hangulario">seok7302@gmail.com</a> con el asunto «Solicitud de eliminación de cuenta de Hangulario». Debe indicar la dirección utilizada para iniciar sesión con Google o, si aparece en el mensaje preparado, el identificador de cuenta.</p>
+    <p>Tras verificar la identidad, eliminaremos normalmente en un plazo de 30 días los datos de Hangulario asociados a la cuenta: copias del diario, datos de aprendizaje y datos de uso del Tutor IA que deban borrarse. También se puede solicitar la eliminación de datos concretos sin pedir la eliminación completa de la cuenta.</p>
+    <p>Hangulario comparte infraestructura de autenticación con otras aplicaciones del mismo desarrollador. Antes de eliminar la identidad global de Firebase Authentication, confirmaremos con el solicitante si esa acción afectaría el acceso a otra aplicación. Esta comprobación no impide la eliminación de los datos específicos de Hangulario.</p>
+    <p>Las entradas y fotografías del dispositivo se eliminan desde la Aplicación o al desinstalarla. No podemos borrar remotamente una foto que permanece únicamente en el dispositivo del usuario.</p>
+    <p>Consulta las <a href="delete-account.html">instrucciones completas para eliminar la cuenta y los datos</a>.</p>
+
+    <h2>11. Retención</h2>
+    <p>Conservamos la información solo mientras sea necesaria para prestar el servicio, aplicar límites, protegerlo y cumplir obligaciones legales. Las solicitudes de eliminación se completan normalmente en 30 días. Podemos conservar por más tiempo registros mínimos cuando exista una obligación legal, de seguridad o de prevención de fraude, informando de ello cuando corresponda.</p>
+
+    <h2>12. Cambios de esta política</h2>
+    <p>Si actualizamos esta política, modificaremos esta página y comunicaremos los cambios importantes mediante la Aplicación o la ficha de Google Play cuando sea necesario.</p>
+
+    <h2>13. Contacto</h2>
+    <p>Soporte de Hangulario<br /><a href="mailto:seok7302@gmail.com">seok7302@gmail.com</a></p>
+  </main>
+  <footer>Hangulario · Información legal y soporte de ZEROSEOK</footer>
+</body>
+</html>

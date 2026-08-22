@@ -74,6 +74,13 @@
       "sourcePath": "products/fromo",
       "publicPath": "/fromo/",
       "legacyUrls": []
+    },
+    {
+      "id": "hangulario",
+      "name": "Hangulario",
+      "sourcePath": "products/hangulario",
+      "publicPath": "/hangulario/",
+      "legacyUrls": []
     }
   ]
 }
