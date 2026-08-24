@@ -81,6 +81,26 @@
       "sourcePath": "products/hangulario",
       "publicPath": "/hangulario/",
       "legacyUrls": []
+    },
+    {
+      "id": "onjongil",
+      "name": "Onjongil",
+      "sourcePath": "products/onjongil",
+      "publicPath": "/onjongil/",
+      "registeredPolicyUrls": [
+        "https://sites.google.com/view/onjongil-privacy",
+        "https://sites.google.com/view/onjongil-terms",
+        "https://sites.google.com/view/onjongil-account-deletion"
+      ]
+    },
+    {
+      "id": "escribia",
+      "name": "EscribIA",
+      "sourcePath": "products/escribia",
+      "publicPath": "/escribia/",
+      "registeredPolicyUrls": [
+        "https://sites.google.com/view/escribia-app/"
+      ]
     }
   ]
 }

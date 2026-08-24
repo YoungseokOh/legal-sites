@@ -18,6 +18,8 @@ Each product owns its source in `products/<product-id>/`. The GitHub Pages workf
 | Vloglet | `/vloglet/` | `vloglet-legal` |
 | fromo — Photo Ready | `/fromo/` | — |
 | Hangulario | `/hangulario/` | — |
+| Onjongil | `/onjongil/` | Google Sites URLs pending Play Console replacement |
+| EscribIA | `/escribia/` | Google Sites URL pending Play Console replacement |
 
 The six legacy GitHub Pages repositories remain compatibility hosts. They contain
 generated, full-content mirrors so URLs already recorded in Google Play work even
