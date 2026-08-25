@@ -20,6 +20,7 @@ Each product owns its source in `products/<product-id>/`. The GitHub Pages workf
 | Hangulario | `/hangulario/` | — |
 | Onjongil | `/onjongil/` | Google Sites URLs pending Play Console replacement |
 | EscribIA | `/escribia/` | Google Sites URL pending Play Console replacement |
+| ClipFit | `/clipfit/` | — |
 
 The six legacy GitHub Pages repositories remain compatibility hosts. They contain
 generated, full-content mirrors so URLs already recorded in Google Play work even

@@ -101,6 +101,15 @@
       "registeredPolicyUrls": [
         "https://sites.google.com/view/escribia-app/"
       ]
+    },
+    {
+      "id": "clipfit",
+      "name": "ClipFit",
+      "sourcePath": "products/clipfit",
+      "publicPath": "/clipfit/",
+      "registeredPolicyUrls": [
+        "https://youngseokoh.github.io/legal-sites/clipfit/"
+      ]
     }
   ]
 }
