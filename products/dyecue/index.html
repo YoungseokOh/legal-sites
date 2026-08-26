@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="How DyeCue handles selected photos, on-device Hair AI, local projects, exports, and optional SDK metrics.">
+    <title>Privacy Policy — DyeCue</title>
+    <style>
+      :root { color-scheme:dark; --bg:#100d13; --card:#1c1720; --ink:#fff8f2; --muted:#cbbfc8; --accent:#ff7c9f; --accent2:#8e72ff; --line:#352c39; font-family:Inter,ui-sans-serif,system-ui,sans-serif; }
+      * { box-sizing:border-box; } body { margin:0; background:radial-gradient(circle at 85% 0,#2a1830 0,transparent 38%),var(--bg); color:var(--ink); line-height:1.65; }
+      main { width:min(840px,100%); margin:auto; padding:64px 24px 80px; } header { padding-bottom:40px; border-bottom:1px solid var(--line); }
+      .label { color:var(--accent); font:700 12px ui-monospace,monospace; letter-spacing:.16em; } h1 { margin:14px 0; font:400 clamp(48px,10vw,84px) Georgia,serif; letter-spacing:-.055em; line-height:.95; }
+      .summary { max-width:680px; color:var(--muted); font-size:19px; } .date { color:var(--muted); font-size:14px; }
+      section { padding:36px 0; border-bottom:1px solid var(--line); } h2 { margin:0 0 12px; font:400 30px Georgia,serif; } p,li { color:var(--muted); } strong,a { color:var(--ink); } a { text-underline-offset:4px; }
+      .facts { display:grid; grid-template-columns:repeat(3,1fr); gap:1px; margin-top:30px; background:var(--line); } .facts div { padding:18px; background:var(--card); } .facts b { display:block; color:var(--accent); font-size:12px; letter-spacing:.08em; } .facts span { color:var(--muted); font-size:14px; }
+      .notice { margin-top:24px; padding:18px 20px; border:1px solid color-mix(in srgb,var(--accent2) 55%,var(--line)); background:color-mix(in srgb,var(--accent2) 10%,var(--card)); border-radius:16px; color:var(--muted); }
+      @media(max-width:600px){ main{padding-top:42px}.facts{grid-template-columns:1fr} }
+    </style>
+  </head>
+  <body><main>
+    <header>
+      <span class="label">PRIVACY POLICY · DYECUE</span>
+      <h1>Your photo<br>stays yours.</h1>
+      <p class="summary">DyeCue is a local-first hair-color preview app. Hair segmentation and full-resolution color rendering run on your Android device.</p>
+      <p class="date">Last updated: August 26, 2026</p>
+      <div class="facts"><div><b>ACCOUNT</b><span>Not required</span></div><div><b>PHOTO UPLOAD</b><span>None to DyeCue servers</span></div><div><b>PROJECT STORAGE</b><span>On device</span></div></div>
+      <p class="notice"><strong>Important distinction:</strong> DyeCue does not upload your photo pixels to a DyeCue-operated server. The bundled MediaPipe SDK may send limited performance and usage metrics to Google when Hair AI is used.</p>
+    </header>
+    <section><h2>Photos and camera</h2><p>DyeCue accesses only a photo you select through Android's system picker or a photo you capture in the app. The selected image is copied into app-private storage, normalized for orientation, and used to create a hair-confidence mask and color preview. Camera analysis frames are processed in memory and are not saved; only the photo captured when you press the shutter becomes a project source.</p></section>
+    <section><h2>On-device Hair AI</h2><p>Hair segmentation uses the bundled MediaPipe Tasks HairSegmenter model on your device. Photo pixels, face regions, confidence masks, repair strokes, and color recipes are not sent to a DyeCue server. Before Hair AI first runs, DyeCue explains that MediaPipe may send SDK performance and usage metrics to Google. You may decline and use manual Hair Paint instead.</p></section>
+    <section><h2>Data stored on your device</h2><p>DyeCue stores the canonical source photo, its cryptographic hash and dimensions, the AI mask, manual add/remove operations, color settings, project metadata, preview caches, and the last export metadata in app-private no-backup storage. The app does not require an account and does not provide cloud project storage.</p></section>
+    <section><h2>Saving and sharing</h2><p>DyeCue creates a full-resolution export only when you request it. The temporary result is reopened and verified before it is published to Android MediaStore. A result is shared only when you open Android's share sheet, using a verified content URI. The receiving app handles the shared copy under its own privacy policy.</p></section>
+    <section><h2>Permissions</h2><ul><li><strong>Camera:</strong> requested only for the in-app camera flow.</li><li><strong>Photos:</strong> selected through Android's system picker without broad read-media access.</li><li><strong>Storage on Android 8 and 9:</strong> write access is limited to Android API 28 and below and is used only to publish a requested export.</li><li><strong>Internet and network state:</strong> included by MediaPipe/DataTransport dependencies. DyeCue does not use these permissions to upload photo pixels.</li></ul></section>
+    <section><h2>SDK metrics and data safety</h2><p>MediaPipe Tasks Vision and its Google DataTransport dependencies may process limited app interactions, diagnostics, other app-performance information, and a device or app identifier for SDK analytics. This data is transmitted using encrypted connections. DyeCue does not include advertising, Firebase Analytics, Crashlytics, account, or app-specific analytics SDKs.</p></section>
+    <section><h2>Deletion and retention</h2><p>Projects remain in app-private storage until you delete them or clear/uninstall the app. Deleting a project removes its source, mask, previews, operations, and temporary output from the project directory using normal filesystem deletion; it is not forensic secure erasure. Images already saved to MediaStore remain visible media and must be deleted separately with your gallery or file app.</p></section>
+    <section><h2>Children</h2><p>DyeCue is intended for people aged 13 and older. It is not directed to children under 13 and does not knowingly collect personal information from children under 13.</p></section>
+    <section><h2>Changes and contact</h2><p>Material changes will be reflected here with a revised effective date. DyeCue is operated by <strong>ZEROSEOK</strong>. Privacy or support questions can be sent to <a href="mailto:zerostonz.co@gmail.com">zerostonz.co@gmail.com</a>.</p></section>
+  </main></body>
+</html>

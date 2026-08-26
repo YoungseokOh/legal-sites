@@ -110,6 +110,15 @@
       "registeredPolicyUrls": [
         "https://youngseokoh.github.io/legal-sites/clipfit/"
       ]
+    },
+    {
+      "id": "dyecue",
+      "name": "DyeCue",
+      "sourcePath": "products/dyecue",
+      "publicPath": "/dyecue/",
+      "registeredPolicyUrls": [
+        "https://youngseokoh.github.io/legal-sites/dyecue/"
+      ]
     }
   ]
 }
