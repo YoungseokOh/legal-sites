@@ -22,6 +22,7 @@ Each product owns its source in `products/<product-id>/`. The GitHub Pages workf
 | EscribIA | `/escribia/` | Google Sites URL pending Play Console replacement |
 | ClipFit | `/clipfit/` | — |
 | DyeCue | `/dyecue/` | — |
+| Omit: Photo Redaction | `/omit/` | — |
 
 The six legacy GitHub Pages repositories remain compatibility hosts. They contain
 generated, full-content mirrors so URLs already recorded in Google Play work even

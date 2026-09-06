@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="How Omit handles photos, redaction drafts, exported copies, permissions, and privacy.">
+    <meta name="color-scheme" content="light">
+    <title>Privacy Policy — Omit</title>
+    <style>
+      :root { color-scheme:light; --paper:#f6f7f8; --surface:#fff; --ink:#111318; --muted:#69727d; --cobalt:#315cf5; --lime:#ccff3c; --line:#e4e7eb; font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+      * { box-sizing:border-box; }
+      body { margin:0; background:var(--paper); color:var(--ink); line-height:1.65; }
+      main { width:min(820px,100%); margin:auto; padding:64px 24px 88px; }
+      header { padding:40px; background:var(--surface); border:1px solid var(--line); border-radius:22px; }
+      .brand { display:flex; align-items:center; gap:12px; font-size:22px; font-weight:850; letter-spacing:-.04em; }
+      .mark { display:grid; place-items:center; width:42px; height:42px; background:var(--ink); border-radius:12px; color:var(--lime); font:850 18px ui-monospace,monospace; }
+      .label { display:block; margin-top:36px; color:var(--cobalt); font:750 12px ui-monospace,monospace; letter-spacing:.15em; }
+      h1 { margin:12px 0 16px; font-size:clamp(44px,9vw,74px); letter-spacing:-.06em; line-height:.98; }
+      .summary { max-width:670px; color:var(--muted); font-size:18px; }
+      .date { color:var(--muted); font-size:14px; }
+      .facts { display:grid; grid-template-columns:repeat(3,1fr); gap:1px; margin-top:28px; overflow:hidden; background:var(--line); border:1px solid var(--line); border-radius:14px; }
+      .facts div { padding:18px; background:var(--surface); }
+      .facts b { display:block; color:var(--cobalt); font-size:12px; letter-spacing:.08em; }
+      .facts span { color:var(--muted); font-size:14px; }
+      section { padding:34px 4px; border-bottom:1px solid var(--line); }
+      h2 { margin:0 0 10px; font-size:27px; letter-spacing:-.035em; }
+      h3 { margin:26px 0 8px; font-size:18px; }
+      p,li { color:var(--muted); }
+      strong,a,code { color:var(--ink); }
+      a { text-underline-offset:4px; }
+      .ko { margin-top:32px; padding-top:32px; border-top:1px solid var(--line); }
+      @media(max-width:600px){ main{padding:28px 16px 64px}header{padding:28px 22px}.facts{grid-template-columns:1fr} }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="brand"><span class="mark">//</span>Omit</div>
+        <span class="label">PRIVACY POLICY · PHOTO REDACTION</span>
+        <h1>Your photo<br>stays local.</h1>
+        <p class="summary">Omit is a manual-first Android photo-redaction tool. Images, optional suggestions, edits, and export checks are processed on your device.</p>
+        <p class="date"><strong>Effective:</strong> September 6, 2026</p>
+        <div class="facts"><div><b>ACCOUNT</b><span>Not required</span></div><div><b>NETWORK</b><span>No app permission</span></div><div><b>PROCESSING</b><span>On device</span></div></div>
+      </header>
+
+      <section>
+        <h2>Images and processing</h2>
+        <p>When you choose an image with Android Photo Picker or share an image to Omit, the app copies it into app-private storage. Manual redaction tools, user-requested text and face suggestions, full-resolution rendering, and export checks run on the device. Omit does not upload your images to a developer server.</p>
+        <p>Omit creates a new raster copy and never modifies the selected original. A successfully saved copy is written to <code>Pictures/Omit</code>.</p>
+      </section>
+      <section>
+        <h2>Local storage and deletion</h2>
+        <p>An unfinished draft may remain in app-private storage so work can recover after the app process stops. You can remove the draft. Omit automatically cleans up abandoned private source copies after approximately 24 hours and deletes failed temporary exports. Copies saved to your device remain until you delete them using your photo or file manager. Uninstalling Omit removes its app-private data.</p>
+      </section>
+      <section>
+        <h2>Sharing</h2>
+        <p>Omit opens the Android system share sheet only after you choose <strong>Share copy</strong>. The app or service you select then handles that exported copy under its own privacy policy.</p>
+      </section>
+      <section>
+        <h2>Data collection and permissions</h2>
+        <p>Omit has no account system, advertising, analytics, cloud upload, or backend. It does not collect or share personal data. The app does not request Internet access, broad photo-library access, location, camera, microphone, contacts, or notification permission.</p>
+      </section>
+      <section>
+        <h2>Limits of export checks</h2>
+        <p>Omit checks marked areas and selected export metadata. It cannot find information you did not mark and does not guarantee that every sensitive detail has been removed.</p>
+      </section>
+      <section>
+        <h2>Children</h2>
+        <p>Omit is a general-purpose utility and is not designed specifically for children. It does not knowingly collect personal information from anyone.</p>
+      </section>
+      <section>
+        <h2>Changes and contact</h2>
+        <p>Material changes will be reflected in this policy and its effective date. For privacy questions, contact <a href="mailto:seok7302@gmail.com">seok7302@gmail.com</a>.</p>
+      </section>
+
+      <section class="ko" lang="ko">
+        <h2>개인정보처리방침</h2>
+        <p><strong>시행일:</strong> 2026년 9월 6일</p>
+        <h3>이미지와 처리 방식</h3>
+        <p>Android 사진 선택기로 이미지를 고르거나 Omit으로 공유하면 앱 전용 저장소에 사본을 만듭니다. 수동 가리기, 사용자가 요청한 텍스트·얼굴 제안, 원본 해상도 렌더링, 내보내기 검사는 기기 안에서 실행됩니다. 이미지를 개발자 서버로 업로드하지 않으며 선택한 원본을 수정하지 않습니다.</p>
+        <h3>로컬 저장과 삭제</h3>
+        <p>앱이 종료되어도 작업을 복원할 수 있도록 미완성 초안이 앱 전용 저장소에 남을 수 있습니다. 사용자가 초안을 지울 수 있으며, 방치된 비공개 원본 사본은 약 24시간 후 자동 정리되고 실패한 임시 내보내기 파일은 삭제됩니다. <code>Pictures/Omit</code>에 저장한 사본은 사용자가 사진 또는 파일 관리 도구에서 삭제할 때까지 남습니다.</p>
+        <h3>공유, 수집, 권한</h3>
+        <p><strong>사본 공유</strong>를 선택한 경우에만 Android 시스템 공유 화면을 엽니다. 이후에는 사용자가 고른 앱 또는 서비스의 개인정보처리방침이 적용됩니다. Omit에는 계정, 광고, 분석, 클라우드 업로드, 백엔드가 없으며 개인정보를 수집하거나 공유하지 않습니다. 인터넷, 전체 사진 라이브러리, 위치, 카메라, 마이크, 연락처, 알림 권한을 요청하지 않습니다.</p>
+        <h3>검사 범위</h3>
+        <p>내보내기 검사는 표시한 영역과 일부 메타데이터를 확인합니다. 사용자가 표시하지 않은 정보를 찾아내거나 모든 민감 정보가 제거됐음을 보장하지는 않습니다.</p>
+        <h3>문의</h3>
+        <p>중요한 변경 사항은 이 페이지와 시행일에 반영합니다. 개인정보 문의: <a href="mailto:seok7302@gmail.com">seok7302@gmail.com</a>.</p>
+      </section>
+    </main>
+  </body>
+</html>

@@ -119,6 +119,15 @@
       "registeredPolicyUrls": [
         "https://youngseokoh.github.io/legal-sites/dyecue/"
       ]
+    },
+    {
+      "id": "omit",
+      "name": "Omit: Photo Redaction",
+      "sourcePath": "products/omit",
+      "publicPath": "/omit/",
+      "registeredPolicyUrls": [
+        "https://youngseokoh.github.io/legal-sites/omit/"
+      ]
     }
   ]
 }
