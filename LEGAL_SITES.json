@@ -128,6 +128,13 @@
       "registeredPolicyUrls": [
         "https://youngseokoh.github.io/legal-sites/omit/"
       ]
+    },
+    {
+      "id": "koreancheck",
+      "name": "KoreanCheck",
+      "sourcePath": "products/koreancheck",
+      "publicPath": "/koreancheck/",
+      "registeredPolicyUrls": []
     }
   ]
 }
