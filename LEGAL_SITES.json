@@ -135,6 +135,13 @@
       "sourcePath": "products/koreancheck",
       "publicPath": "/koreancheck/",
       "registeredPolicyUrls": []
+    },
+    {
+      "id": "pocketrta",
+      "name": "PocketRTA: Audio Analyzer",
+      "sourcePath": "products/pocketrta",
+      "publicPath": "/pocketrta/",
+      "legacyUrls": []
     }
   ]
 }
