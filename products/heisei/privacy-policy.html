@@ -11,20 +11,37 @@
   <main>
     <p class="eyebrow">HEISEI CAMERA / LEGAL</p>
     <h1>Privacy Policy</h1>
-    <p class="updated">Effective July 29, 2026</p>
+    <p class="updated">Effective October 8, 2026</p>
 
     <p>Heisei is a camera application published by Youngseok Oh. This policy
     explains what the Android app processes and what is sent to service
     providers.</p>
 
     <h2>Photos and camera access</h2>
-    <p>Heisei uses camera permission only to let you take photos. Captures,
-    edits, the Heisei Roll, and your MY CCD identity are processed and stored
-    locally on your device. Heisei does not upload your photos to a
-    Heisei-operated server.</p>
-    <p>A copy leaves the app only when you explicitly export it to system Photos
-    or share it through Android or another app. The destination's privacy terms
-    then apply to that copy.</p>
+    <p>Ordinary camera captures, local effects, the Heisei Roll, and MY CCD
+    are processed and stored on your device. Camera permission is used to take
+    photos. Exported and shared copies are controlled by their destinations.</p>
+    <p>Optional AI Flash and film photo edits require an internet connection
+    and your explicit consent. The selected image is uploaded through our
+    authenticated Firebase/Google Cloud service and sent to OpenAI to produce
+    the requested edit. We remove embedded image metadata before processing.
+    AI results are stored privately and retrieved through authenticated requests;
+    they are not published as a public gallery.</p>
+    <p>Uploaded inputs are removed after processing. Result access expires
+    after seven days; storage lifecycle cleanup is configured after eight days
+    as a fallback and physical deletion may take additional processing time.
+    OpenAI's own service retention terms also apply.</p>
+    <h2>Optional accounts and purchases</h2>
+    <p>HEISEI+ and cloud features use Firebase Authentication. Authentication
+    providers may process your email address, provider identity, and Firebase
+    user ID. Ordinary local camera use does not require an account.</p>
+    <p>Google Play handles subscription checkout and payment details. Our server
+    processes purchase tokens, product and order identifiers, subscription
+    status, and an account binding to verify access and record photo-use credits.
+    We do not receive your full payment-card details.</p>
+    <p>Server records include generation status, selected style, credit usage,
+    provider request identifiers, token usage, and cost accounting. Identity
+    claims used to prevent repeated trial grants are stored as keyed hashes.</p>
 
     <h2>Analytics</h2>
     <p>Release versions use Google Firebase Analytics to understand app
@@ -49,11 +66,10 @@
 
     <h2>What we do not do</h2>
     <ul>
-      <li>We do not offer accounts or collect names, email addresses, contacts,
-      precise location, financial information, or health information.</li>
+      <li>We do not request contacts, precise location, or health information.</li>
       <li>We do not sell personal data.</li>
       <li>We do not show ads or use data for advertising.</li>
-      <li>We do not operate cloud photo storage.</li>
+      <li>We do not offer public photo sharing or general cloud photo backup.</li>
     </ul>
 
     <h2>Retention and your choices</h2>
@@ -62,12 +78,20 @@
     be removed from their destination separately. Firebase retains analytics
     and diagnostic data according to the configured Firebase retention settings
     and Google's service terms.</p>
+    <p>Request deletion of cloud account and associated data using the
+    <a href="data-deletion.html">Data Deletion page</a>. The current release's
+    in-app account-data deletion action is not yet available; this support route
+    remains available. We may retain minimum purchase, security, trial-abuse,
+    and accounting records when needed, and explain relevant retention when
+    responding. Deleting an account does not cancel a Google Play subscription.</p>
+    <p>Cloud transport uses HTTPS. Google Firebase/Cloud and OpenAI process
+    data as service providers and may process it outside your country.</p>
     <p>You can deny camera permission, change it later in Android Settings, and
     use Android and Google privacy controls where available.</p>
 
     <h2>Children</h2>
     <p>Heisei is not primarily directed to children. We do not knowingly
-    collect account or contact information from children.</p>
+    collect personal data from children.</p>
 
     <h2>Changes</h2>
     <p>We may update this policy when the app or its service providers change.
