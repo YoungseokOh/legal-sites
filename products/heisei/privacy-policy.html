@@ -34,7 +34,10 @@
     <h2>Optional accounts and purchases</h2>
     <p>HEISEI+ and cloud features use Firebase Authentication. Authentication
     providers may process your email address, provider identity, and Firebase
-    user ID. Ordinary local camera use does not require an account.</p>
+    user ID. If you choose Google sign-in, Firebase Authentication also stores
+    the display name and profile photo URL supplied by Google with your account.
+    These account details are not sent in our product analytics events.
+    Ordinary local camera use does not require an account.</p>
     <p>Google Play handles subscription checkout and payment details. Our server
     processes purchase tokens, product and order identifiers, subscription
     status, and an account binding to verify access and record photo-use credits.
