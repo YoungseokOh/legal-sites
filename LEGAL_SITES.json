@@ -142,6 +142,13 @@
       "sourcePath": "products/pocketrta",
       "publicPath": "/pocketrta/",
       "legacyUrls": []
+    },
+    {
+      "id": "pixelprep",
+      "name": "PhotoReady (PixelPrep)",
+      "sourcePath": "products/pixelprep",
+      "publicPath": "/pixelprep/",
+      "registeredPolicyUrls": []
     }
   ]
 }
