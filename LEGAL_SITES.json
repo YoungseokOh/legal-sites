@@ -149,6 +149,13 @@
       "sourcePath": "products/pixelprep",
       "publicPath": "/pixelprep/",
       "registeredPolicyUrls": []
+    },
+    {
+      "id": "rechrona",
+      "name": "Rechrona",
+      "sourcePath": "products/rechrona",
+      "publicPath": "/rechrona/",
+      "registeredPolicyUrls": []
     }
   ]
 }
