@@ -25,6 +25,10 @@ Each product owns its source in `products/<product-id>/`. The GitHub Pages workf
 | Omit: Photo Redaction | `/omit/` | — |
 | PhotoReady (PixelPrep) | `/pixelprep/` | — |
 | Rechrona | `/rechrona/` | — |
+| PageQuote | `/pagequote/` | — |
+| StopSnap | `/stopsnap/` | — |
+| MileLogLite | `/mileloglite/` | — |
+| ColorArchive | `/colorarchive/` | — |
 
 The six legacy GitHub Pages repositories remain compatibility hosts. They contain
 generated, full-content mirrors so URLs already recorded in Google Play work even

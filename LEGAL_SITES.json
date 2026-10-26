@@ -156,6 +156,10 @@
       "sourcePath": "products/rechrona",
       "publicPath": "/rechrona/",
       "registeredPolicyUrls": []
-    }
+    },
+    {"id": "pagequote", "name": "PageQuote", "sourcePath": "products/pagequote", "publicPath": "/pagequote/", "registeredPolicyUrls": []},
+    {"id": "stopsnap", "name": "StopSnap", "sourcePath": "products/stopsnap", "publicPath": "/stopsnap/", "registeredPolicyUrls": []},
+    {"id": "mileloglite", "name": "MileLogLite", "sourcePath": "products/mileloglite", "publicPath": "/mileloglite/", "registeredPolicyUrls": []},
+    {"id": "colorarchive", "name": "ColorArchive", "sourcePath": "products/colorarchive", "publicPath": "/colorarchive/", "registeredPolicyUrls": []}
   ]
 }
