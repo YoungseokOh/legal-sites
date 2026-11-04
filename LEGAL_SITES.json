@@ -161,6 +161,8 @@
     {"id": "stopsnap", "name": "StopSnap", "sourcePath": "products/stopsnap", "publicPath": "/stopsnap/", "registeredPolicyUrls": []},
     {"id": "mileloglite", "name": "MileLogLite", "sourcePath": "products/mileloglite", "publicPath": "/mileloglite/", "registeredPolicyUrls": []},
     {"id": "colorarchive", "name": "ColorArchive", "sourcePath": "products/colorarchive", "publicPath": "/colorarchive/", "registeredPolicyUrls": []},
-    {"id": "stocklabelsolo", "name": "StockLabel Solo", "sourcePath": "products/stocklabelsolo", "publicPath": "/stocklabelsolo/", "registeredPolicyUrls": []}
+    {"id": "stocklabelsolo", "name": "StockLabel Solo", "sourcePath": "products/stocklabelsolo", "publicPath": "/stocklabelsolo/", "registeredPolicyUrls": []},
+    {"id": "pulse16","name": "PULSE-16","sourcePath": "products/pulse16","publicPath": "/pulse16/","registeredPolicyUrls": ["https://youngseokoh.github.io/legal-sites/pulse16/"]},
+    {"id": "roll15","name": "ROLL15","sourcePath": "products/roll15","publicPath": "/roll15/","registeredPolicyUrls": ["https://youngseokoh.github.io/legal-sites/roll15/"]}
   ]
 }
